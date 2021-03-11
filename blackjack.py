@@ -35,6 +35,7 @@ def deal_card(frame):
     # return the cards face
     return next_card
 
+
 def score_hand(hand):
     # calculate the total score of all cards  in the list.
     # only one ace can have the value 11, and this will be reduced to 1 if the hand would bust
@@ -51,6 +52,7 @@ def score_hand(hand):
             score -= 10
             ace = False
     return score
+
 
 def deal_dealer():
     dealer_score = score_hand(dealer_hand)
@@ -106,6 +108,7 @@ def new_game():
 
 def shuffle():
     random.shuffle(deck)
+
 
 mainWindow = tkinter.Tk()
 # Set up the screen and frames for the dealer and player
