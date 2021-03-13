@@ -170,5 +170,3 @@ player_hand = []
 new_game()
 
 mainWindow.mainloop()
-
-hhfgghg
